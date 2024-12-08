@@ -8,6 +8,8 @@ if not os.path.exists("todos.txt"):
 
 todos_list = functions.read_file()
 
+st.video("cat.mp4")
+
 def add_todo():
     new_todo = st.session_state["input_todo"] + '\n'
 
